@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cinética Química</title>
+</head>
+<body>
+    <header style="background-image: url('img/fundo.jpeg')">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.jpeg" alt="Logo" width="80px">
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a class="btn" href="explorar.html">Explorar</a>
+                    <a href="questao.html">Questões</a>
+                    <a href="extra.html">Extra</a>
+                </ul>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Teste Seus Conhecimentos</h1>
+                    <p>Testar seu conhcimentos é a maneira mais eficaz de identificar as áreas que necessitam de melhorias no aprendizado.</p>
+                </div>
+            </section>
+        </div>
+    </header>
+    <head>
+    <style>
+        .correct-answer {
+          color: green;
+          font-weight: bold;
+        }
+        .wrong-answer {
+          color: red;
+          font-weight: bold;
+        }
+      </style>
+      <script>
+        function verificarRespostas() {
+          var form = document.querySelector('form');
+          var questao1Resposta = form.querySelector('input[name="questao1"]:checked').value;
+          var questao2Resposta = form.querySelector('input[name="questao2"]:checked').value;
+          var questao3Resposta = form.querySelector('input[name="questao3"]:checked').value;
+          var questao4Resposta = form.querySelector('input[name="questao4"]:checked').value;
+          var questao5Resposta = form.querySelector('input[name="questao5"]:checked').value;
+          var questao6Resposta = form.querySelector('input[name="questao6"]:checked').value;
+          var respostasCorretas = {
+            questao1: 'c',
+            questao2: 'c',
+            questao3: 'a',
+            questao4: 'b',
+            questao5: 'c',
+            questao6: 'a',
+          };
+          var questao1Label = form.querySelector('input[name="questao1"][value="' + respostasCorretas.questao1 + '"]').parentNode;
+          var questao2Label = form.querySelector('input[name="questao2"][value="' + respostasCorretas.questao2 + '"]').parentNode;
+          var questao3Label = form.querySelector('input[name="questao3"][value="' + respostasCorretas.questao3 + '"]').parentNode;
+          var questao4Label = form.querySelector('input[name="questao4"][value="' + respostasCorretas.questao4 + '"]').parentNode;
+          var questao5Label = form.querySelector('input[name="questao5"][value="' + respostasCorretas.questao5 + '"]').parentNode;
+          var questao6Label = form.querySelector('input[name="questao6"][value="' + respostasCorretas.questao6 + '"]').parentNode;
+          if (questao1Resposta === respostasCorretas.questao1) {
+            questao1Label.classList.add("correct-answer");
+          } else {
+            questao1Label.classList.add("wrong-answer");
+          }
+          if (questao2Resposta === respostasCorretas.questao2) {
+            questao2Label.classList.add("correct-answer");
+          } else {
+            questao2Label.classList.add("wrong-answer");
+          }
+          if (questao3Resposta === respostasCorretas.questao3) {
+            questao3Label.classList.add("correct-answer");
+          } else {
+            questao3Label.classList.add("wrong-answer");
+          }
+          if (questao4Resposta === respostasCorretas.questao4) {
+            questao4Label.classList.add("correct-answer");
+          } else {
+            questao4Label.classList.add("wrong-answer");
+          }
+          if (questao5Resposta === respostasCorretas.questao5) {
+            questao5Label.classList.add("correct-answer");
+          } else {
+            questao5Label.classList.add("wrong-answer");
+          }
+          if (questao6Resposta === respostasCorretas.questao6) {
+            questao6Label.classList.add("correct-answer");
+          } else {
+            questao6Label.classList.add("wrong-answer");
+          }
+        }
+      </script>
+    </head>
+    <body>
+    <h1> Atividade </h1>
+      <form onsubmit="verificarRespostas(); return false;">
+        <br>
+    <h1> Questão 1: </h1>
+    <br>
+    <p> Assinale a alternativa que apresenta agentes que tendem a aumentar a velocidade de uma reação: </p>
+    <br>
+          <p><input type="radio" name="questao1" value="a"> Calor, obscuridade, catalisador.</p>
+          <p><input type="radio" name="questao1" value="b"> Calor, maior superfície de contato entre reagentes, ausência de catalisador.</p>
+          <p><input type="radio" name="questao1" value="c" checked> Calor, maior superfície de contato entre reagentes, catalisador.</p>
+          <br>
+    <h1> Questão 2: </h1>
+    <br>
+    <p> O que é necessário para que uma colisão entre reagentes seja efetiva? </p>
+    <br>
+          <p><input type="radio" name="questao2" value="a"> Que a energia cinética das moléculas seja suficientemente alta.</p>
+          <p><input type="radio" name="questao2" value="b"> Que as moléculas estejam num ângulo adequado.</p>
+          <p><input type="radio" name="questao2" value="c" checked> Que as moléculas tenham uma força de atração entre si.</p>
+          <br>
+    <h1>Questão 3: </h1>
+    <br>
+    <p> Qual é a influência da temperatura na velocidade de uma reação química? </p>
+    <br>
+          <p><input type="radio" name="questao3" value="a" checked> A relação entre temperatura e velocidade depende do sistema químico.</p>
+          <p><input type="radio" name="questao3" value="b"> Aumentar a temperatura sempre acelera a reação.</p>
+          <p><input type="radio" name="questao3" value="c"> Aumentar a temperatura sempre diminui a reação.</p>
+          <br>
+    <h1>Questão 4: </h1>
+    <br>
+    <p> O que é uma constante de velocidade? </p>
+    <br>
+          <p><input type="radio" name="questao4" value="a"> A quantidade de reagentes utilizada em uma reação química.</p>
+          <p><input type="radio" name="questao4" value="b" checked> Uma medida da rapidez com que uma reação química ocorre.</p>
+          <p><input type="radio" name="questao4" value="c"> A quantidade de produto formada em uma reação química.</p>
+          <br>
+    <h1> Questão 5: </h1>
+    <br>
+    <p> A rapidez com que ocorre uma reação química depende de: </p>
+    <br>
+    <p> I. Número de colisões efetivas entre os reagentes.</p>
+    <p> II. Energia suficiente para promover o rearranjo dos átomos.</p>
+    <p> III. Orientação favorável das moléculas.</p>
+    <p> IV. Formação de um complexo ativado. </p>
+    <br>
+          <p><input type="radio" name="questao5" value="a"> I, II e IV </p>
+          <p><input type="radio" name="questao5" value="b"> I, II e III </p>
+          <p><input type="radio" name="questao5" value="c" checked> I, II, III e IV </p>
+          <br>
+    <h1> Questão 6: </h1>
+    <br>
+    <p> O que é uma reação irreversível? </p>
+    <br>
+          <p><input type="radio" name="questao6" value="a" checked> Uma reação que ocorre rapidamente, em apenas um sentido.</p>
+          <p><input type="radio" name="questao6" value="b"> Uma reação que ocorre lentamente, em ambos os sentidos.</p>
+          <p><input type="radio" name="questao6" value="c"> Uma reação que ocorre moderadamente rápida, em ambos os sentidos. </p>
+        <br>
+        <p><input type="submit" value="Verificar Respostas"></p>
+        <br>
+      </form>
+      </body>
+<footer class="footer">
+    <h1> Entre em contato:</h1>
+<p>M.A.M.Corporation2023@gmail.com</p>
+</footer>
+</body>
+</html>
