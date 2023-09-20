@@ -26,7 +26,6 @@ p{
 .btn{
     background-color: #6959cd;
     color: white;
-    
     padding: 15px 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -160,7 +159,7 @@ nav ul a:hover::after {
     margin: auto;
 }
 .explorar .gallery-text p{
-    margin: 5px 0 10px 0;
+    margin: auto;
 }
 .explorar .gallery-img{
     width: 100%;
