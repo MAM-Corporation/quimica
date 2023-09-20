@@ -160,16 +160,16 @@ nav ul a:hover::after {
     margin: auto;
 }
 .explorar .gallery-text p{
-    margin: auto;
+    margin: 5px 0 10px 0;
 }
 .explorar .gallery-img{
-    width: 100%;
+    width: 50%;
 }
 .explorar .gallery-img img{
-    width: 100%;
+    width: 50%;
 }
 .explorar .radio{
-    display: inline-block;
+    display: initial;
     align-items: center;
     width: auto 0;
     padding: 10px;
