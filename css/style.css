@@ -144,7 +144,7 @@ nav ul a:hover::after {
     width: 100%;
 }
 .explorar .gallery{
-    display: inline-block;
+    display: initial;
     align-items: center;
     width: auto 0;
     padding: 10px;
