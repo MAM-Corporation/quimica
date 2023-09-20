@@ -258,6 +258,7 @@ p{
     width: 100%;
     transition: 0.3s;
 }
+@media(max-width: 830px){
 .explorar .explorar-text{
     margin-top: 10px;
     padding: 0 20px;
@@ -300,4 +301,5 @@ p{
     .explorar .explorar-text h3{
         font-size: 40px;
     }
+ }
 }
