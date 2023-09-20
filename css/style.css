@@ -185,10 +185,10 @@ nav ul a:hover::after {
     margin: 5px 0 10px 0;
 }
 .explorar .radio-img{
-    width: 100%;
+    width: 50%;
 }
 .explorar .radio-img img{
-    width: 100%;
+    width: 50%;
 }
 section,
 div{
