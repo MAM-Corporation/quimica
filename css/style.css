@@ -142,32 +142,6 @@ nav ul a:hover::after {
 .explorar .explorar-img img{
     width: 100%;
 }
-.explorar .gallery{
-    display: initial;
-    align-items: center;
-    text-align: left;
-    align-content: center;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-}
-.explorar .gallery-text{
-    width: 100%;
-    padding: 10px;
-}
-.explorar .gallery-text h2{
-    font-size: 56px;  
-    margin: auto;
-}
-.explorar .gallery-text p{
-    margin: 5px 0 10px 0;
-}
-.explorar .gallery-img{
-    width: 50%;
-}
-.explorar .gallery-img img{
-    width: 50%;
-}
 .explorar .radio{
     display: initial;
     align-items: center;
@@ -186,7 +160,7 @@ nav ul a:hover::after {
     font-size: 56px;   
 }
 .explorar .radio-text p{
-    margin: 5px 0 10px 0;
+    margin: 5px;
 }
 .explorar .radio-img{
     width: 40%;
