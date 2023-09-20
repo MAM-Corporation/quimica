@@ -258,3 +258,46 @@ p{
     width: 100%;
     transition: 0.3s;
 }
+.explorar .explorar-text{
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 1;
+}
+.explorar .container{
+    flex-direction: column;
+}
+.explorar .ex h3{
+    font-size: 48px;
+}
+.explorar .explorar-text,
+.explorar .explorar-img{
+    width: 100%;
+}
+.banner .banner-text{
+    padding: 0;
+    margin: 80px;
+}
+.banner .banner-text h1{
+    font-size: 80px;
+}
+.banner .banner-text p{
+    font-size: 15px;
+}
+.contato-info{
+    flex-direction: column-reverse;
+}
+.contato-info .right-side,
+.contato-info .left-side{
+    width: 100%;
+}
+.contato-info .right-side{
+    margin-bottom: 30px;
+}
+@media (max-width:500px) {
+    .banner .banner-text h1{
+        font-size: 50px;
+    }
+    .explorar .explorar-text h3{
+        font-size: 40px;
+    }
+}
