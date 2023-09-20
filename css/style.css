@@ -166,7 +166,7 @@ nav ul a:hover::after {
     width: 100%;
 }
 .explorar .gallery-img img{
-    width: 50px;
+    width: 100%;
 }
 .explorar .radio{
     display: inline-block;
