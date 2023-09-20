@@ -166,7 +166,7 @@ nav ul a:hover::after {
     width: 40%;
 }
 .explorar .radio-img img{
-    width: 50%;
+    width: 80%;
 }
 section,
 div{
@@ -248,7 +248,7 @@ p{
 .explorar .container{
     flex-direction: column;
 }
-.explorar .ex h3{
+.explorar .explorar-text h3{
     font-size: 48px;
 }
 .explorar .explorar-text,
