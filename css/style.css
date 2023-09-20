@@ -175,7 +175,7 @@ nav ul a:hover::after {
     padding: 10px;
 }
 .explorar .radio-text{
-    width: 50%;
+    width: 100%;
     padding: 10px;
 }
 .explorar .radio-text h2{
@@ -185,10 +185,10 @@ nav ul a:hover::after {
     margin: 5px 0 10px 0;
 }
 .explorar .radio-img{
-    width: 50%;
+    width: 20%;
 }
 .explorar .radio-img img{
-    width: 50%;
+    width: 40%;
 }
 section,
 div{
