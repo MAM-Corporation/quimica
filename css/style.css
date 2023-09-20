@@ -150,7 +150,7 @@ nav ul a:hover::after {
     padding: 10px;
 }
 .explorar .gallery-text{
-    width: 50%;
+    width: 100%;
     padding: 10px;
 }
 .explorar .gallery-text h2{
@@ -160,10 +160,10 @@ nav ul a:hover::after {
     margin: 5px 0 10px 0;
 }
 .explorar .gallery-img{
-    width: 30%;
+    width: 100%;
 }
 .explorar .gallery-img img{
-    width: 50%;
+    width: 50px;
 }
 .explorar .radio{
     display: inline-block;
